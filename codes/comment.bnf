@@ -1,1 +1,1 @@
-breakfast  ::=
+Comment ::= '<!--' ((Char - '-') | ('-' (Char - '-')))* '-->'
